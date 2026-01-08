@@ -21,10 +21,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground text-sm font-mono">{"α"}</span>
-          </div>
+<Link href="/" className="flex items-center gap-2 font-bold text-xl">
+          <img src="/new-logo.png" alt="AlphaDAO" className="w-8 h-8" />
           {"AlphaDAO"}
         </Link>
 
