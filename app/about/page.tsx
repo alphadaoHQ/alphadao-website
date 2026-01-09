@@ -1,3 +1,5 @@
+"use client"
+
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -20,6 +22,116 @@ export default function AboutPage() {
                 "AlphaDAO represents a fundamental reimagining of how educational infrastructure, professional credentials, and skill verification systems are built and governed. Founded on principles of decentralization, transparency, and community ownership, we develop protocol-level solutions that enable trustless credential issuance, verifiable skill attestation, and composable reputation systems for the Web3 ecosystem and beyond."
               }
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Avatars Section */}
+      <section className="border-b border-border bg-muted/30">
+        <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">{"Our Team"}</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              {"Driven by builders, researchers, and educators passionate about decentralized infrastructure"}
+            </p>
+          </div>
+          
+          <style jsx>{`
+            .avatar-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 2rem 0;
+            }
+            
+            .avatar-wrapper {
+              position: relative;
+              transition: transform 0.3s ease;
+            }
+            
+            .avatar-wrapper:hover {
+              transform: translateY(-12px) scale(1.1);
+              z-index: 10;
+            }
+            
+            .avatar-circle {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+              border: 4px solid hsl(var(--background));
+              background: hsl(var(--muted));
+              overflow: hidden;
+              box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+              transition: box-shadow 0.3s ease;
+            }
+            
+            .avatar-wrapper:hover .avatar-circle {
+              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            }
+            
+            .avatar-image {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          `}</style>
+
+          <div className="avatar-container">
+            {/* Avatar 1 */}
+            <div className="avatar-wrapper" style={{ marginLeft: '-25px' }}>
+              <div className="avatar-circle" style={{ width: '80px', height: '80px' }}>
+                <img
+                  src="/placeholder-user.jpg"
+                  alt="Team member 1"
+                  className="avatar-image"
+                />
+              </div>
+            </div>
+
+            {/* Avatar 2 */}
+            <div className="avatar-wrapper" style={{ marginLeft: '-25px' }}>
+              <div className="avatar-circle" style={{ width: '100px', height: '100px' }}>
+                <img
+                  src="/placeholder-user.jpg"
+                  alt="Team member 2"
+                  className="avatar-image"
+                />
+              </div>
+            </div>
+
+            {/* Avatar 3 */}
+            <div className="avatar-wrapper" style={{ marginLeft: '-25px' }}>
+              <div className="avatar-circle" style={{ width: '110px', height: '110px' }}>
+                <img
+                  src="/placeholder-user.jpg"
+                  alt="Team member 3"
+                  className="avatar-image"
+                />
+              </div>
+            </div>
+
+            {/* Avatar 4 */}
+            <div className="avatar-wrapper" style={{ marginLeft: '-25px' }}>
+              <div className="avatar-circle" style={{ width: '100px', height: '100px' }}>
+                <img
+                  src="/placeholder-user.jpg"
+                  alt="Team member 4"
+                  className="avatar-image"
+                />
+              </div>
+            </div>
+
+            {/* Avatar 5 */}
+            <div className="avatar-wrapper" style={{ marginLeft: '-25px' }}>
+              <div className="avatar-circle" style={{ width: '80px', height: '80px' }}>
+                <img
+                  src="/placeholder-user.jpg"
+                  alt="Team member 5"
+                  className="avatar-image"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
