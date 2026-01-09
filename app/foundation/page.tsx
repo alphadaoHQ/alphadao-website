@@ -284,7 +284,7 @@ export default function FoundationPage() {
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 {
-                  "Non-dilutive grants for community contributors, bounties for specific development tasks, and scholarships for bootcamp participants."
+                  "Non-dilutive grants for community contributors, bounties for specific development tasks, and scholarships for academy participants."
                 }
               </p>
             </Card>
@@ -415,7 +415,7 @@ export default function FoundationPage() {
               <h3 className="text-xl font-bold mb-3">{"Education & Certification"}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {
-                  "Learning platforms, credentialing systems, bootcamps, and educational content that advance blockchain literacy and professional development."
+                  "Learning platforms, credentialing systems, academies, and educational content that advance blockchain literacy and professional development."
                 }
               </p>
             </Card>

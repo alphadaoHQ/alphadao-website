@@ -17,7 +17,7 @@ import {
   Rocket,
 } from "lucide-react"
 
-export default function BootcampPage() {
+export default function AcademyPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function BootcampPage() {
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed text-pretty mb-12 max-w-3xl mx-auto">
               {
-                "AlphaDAO Bootcamp equips individuals from any background with practical skills, real credentials, and access to opportunity in the Web3 and digital economy. Our structured learning pathways combine hands-on development, mentorship from protocol contributors, and verifiable skill certification through blockchain-based credentials."
+                "AlphaDAO Academy equips individuals from any background with practical skills, real credentials, and access to opportunity in the Web3 and digital economy. Our structured learning pathways combine hands-on development, mentorship from protocol contributors, and verifiable skill certification through blockchain-based credentials."
               }
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

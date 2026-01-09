@@ -250,7 +250,7 @@ export default function HomePage() {
                     <div className="space-y-4 mb-8">
                       <div className="flex justify-between text-sm">
                         <span className="text-muted-foreground">{"Issued by"}</span>
-                        <span className="font-mono">{"AlphaDAO Bootcamp"}</span>
+                        <span className="font-mono">{"AlphaDAO Academy"}</span>
                       </div>
                       <div className="flex justify-between text-sm">
                         <span className="text-muted-foreground">{"Credential ID"}</span>

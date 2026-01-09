@@ -330,7 +330,7 @@ export default function LabsPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Skill-based participation through AlphaDAO Bootcamp graduates</span>
+                      <span>Skill-based participation through AlphaDAO Academy graduates</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
@@ -350,7 +350,7 @@ export default function LabsPage() {
                   experience building Web3 products.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Top performers in Bootcamp are invited to join Labs working groups, receive mentorship from core
+                  Top performers in Academy are invited to join Labs working groups, receive mentorship from core
                   contributors, and potentially transition into full-time roles as Labs evolves. This creates a talent
                   pipeline that benefits both individual contributors and the broader AlphaDAO ecosystem.
                 </p>
