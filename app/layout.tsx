@@ -13,23 +13,15 @@ export const metadata: Metadata = {
   title: "AlphaDAO - Building Skills, Products, and Community-Owned Infrastructure",
   description:
     "A decentralized autonomous organization focused on Web3 education, research, and infrastructure. Building Recertify, the protocol for verifiable blockchain credentials.",
-  generator: "v0.app",
+  generator: "AlphaDAO",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/new-logo.png",
+        type: "image/png",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/new-logo.png",
   },
 }
 
