@@ -12,7 +12,7 @@ export function Header() {
     { label: "About", href: "/about" },
     { label: "Labs", href: "/labs" },
     { label: "Recertify", href: "/recertify" },
-    { label: "Bootcamp", href: "/bootcamp" },
+    { label: "Academy", href: "/academy" },
     { label: "Foundation", href: "/foundation" },
     { label: "Governance", href: "/governance" },
     { label: "Blog", href: "/blog" },

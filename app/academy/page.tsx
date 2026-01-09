@@ -49,14 +49,14 @@ export default function AcademyPage() {
         </div>
       </section>
 
-      {/* Why Bootcamp Exists */}
+      {/* Why Academy Exists */}
       <section className="border-b border-border bg-muted/30">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Why AlphaDAO Bootcamp Exists"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Why AlphaDAO Academy Exists"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {
-                "The current education system fails to prepare individuals for the demands of the decentralized economy. AlphaDAO Bootcamp bridges this gap with practical, community-driven learning."
+                "The current education system fails to prepare individuals for the demands of the decentralized economy. AlphaDAO Academy bridges this gap with practical, community-driven learning."
               }
             </p>
           </div>
@@ -100,7 +100,7 @@ export default function AcademyPage() {
           </div>
 
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-3xl font-bold mb-6">{"The AlphaDAO Bootcamp Solution"}</h3>
+            <h3 className="text-3xl font-bold mb-6">{"The AlphaDAO Academy Solution"}</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="p-6">
                 <CheckCircle2 className="w-8 h-8 text-primary mb-3 mx-auto" />
@@ -132,10 +132,10 @@ export default function AcademyPage() {
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Who the Bootcamp Is For"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Who the Academy Is For"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {
-                "AlphaDAO Bootcamp serves a diverse range of learners, from complete beginners to experienced professionals seeking to transition into Web3 and blockchain development."
+                "AlphaDAO Academy serves a diverse range of learners, from complete beginners to experienced professionals seeking to transition into Web3 and blockchain development."
               }
             </p>
           </div>
@@ -223,7 +223,7 @@ export default function AcademyPage() {
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Learning Tracks"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {
-                "AlphaDAO Bootcamp offers specialized learning tracks designed to meet diverse skill-building goals. Tracks evolve with ecosystem demand and community input."
+                "AlphaDAO Academy offers specialized learning tracks designed to meet diverse skill-building goals. Tracks evolve with ecosystem demand and community input."
               }
             </p>
           </div>
@@ -371,18 +371,18 @@ export default function AcademyPage() {
           <div className="max-w-3xl mx-auto text-center mt-12">
             <p className="text-sm text-muted-foreground italic">
               {
-                "Note: Tracks evolve with ecosystem demand. AlphaDAO Bootcamp continuously updates curriculum based on industry needs and community feedback."
+                "Note: Tracks evolve with ecosystem demand. AlphaDAO Academy continuously updates curriculum based on industry needs and community feedback."
               }
             </p>
           </div>
         </div>
       </section>
 
-      {/* How the Bootcamp Works */}
+      {/* How the Academy Works */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"How the Bootcamp Works"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"How the Academy Works"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {
                 "A structured, six-step journey from enrollment to certification, designed to maximize learning outcomes and career opportunities."
@@ -456,7 +456,7 @@ export default function AcademyPage() {
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 {
-                  "AlphaDAO Bootcamp issues all certificates through Recertify, our blockchain-based credential system. This ensures your skills are verifiable, portable, and recognized globally without relying on centralized authorities or intermediaries."
+                  "AlphaDAO Academy issues all certificates through Recertify, our blockchain-based credential system. This ensures your skills are verifiable, portable, and recognized globally without relying on centralized authorities or intermediaries."
                 }
               </p>
               <ul className="space-y-4 mb-8">
@@ -466,7 +466,7 @@ export default function AcademyPage() {
                     <h4 className="font-semibold mb-1">{"Certificates Issued via Recertify"}</h4>
                     <p className="text-sm text-muted-foreground">
                       {
-                        "All bootcamp graduates receive NFT or Soulbound Token (SBT) credentials stored permanently on-chain."
+                        "All academy graduates receive NFT or Soulbound Token (SBT) credentials stored permanently on-chain."
                       }
                     </p>
                   </div>
@@ -519,7 +519,7 @@ export default function AcademyPage() {
                       </div>
                       <div>
                         <div className="text-xs text-muted-foreground uppercase tracking-wide font-mono">
-                          {"Bootcamp Graduate"}
+                          {"Academy Graduate"}
                         </div>
                         <div className="font-semibold">{"Smart Contract Development"}</div>
                       </div>
@@ -527,7 +527,7 @@ export default function AcademyPage() {
                     <div className="space-y-4 mb-8">
                       <div className="flex justify-between text-sm">
                         <span className="text-muted-foreground">{"Issued by"}</span>
-                        <span className="font-mono">{"AlphaDAO Bootcamp"}</span>
+                        <span className="font-mono">{"AlphaDAO Academy"}</span>
                       </div>
                       <div className="flex justify-between text-sm">
                         <span className="text-muted-foreground">{"Track"}</span>
@@ -571,7 +571,7 @@ export default function AcademyPage() {
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Learn-to-Earn & Participation"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {
-                "AlphaDAO Bootcamp offers multiple incentive mechanisms to reward learners, support contributors, and ensure accessible education for all backgrounds."
+                "AlphaDAO Academy offers multiple incentive mechanisms to reward learners, support contributors, and ensure accessible education for all backgrounds."
               }
             </p>
           </div>
@@ -581,7 +581,7 @@ export default function AcademyPage() {
               <h3 className="text-xl font-bold mb-3">{"Scholarships"}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {
-                  "Need-based and merit-based scholarships cover bootcamp fees for talented individuals from underserved regions or backgrounds, ensuring access is not limited by financial constraints."
+                  "Need-based and merit-based scholarships cover academy fees for talented individuals from underserved regions or backgrounds, ensuring access is not limited by financial constraints."
                 }
               </p>
             </Card>
@@ -617,7 +617,7 @@ export default function AcademyPage() {
               <h3 className="text-xl font-bold mb-3">{"DAO Participation Pathways"}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {
-                  "Bootcamp graduates gain early access to AlphaDAO governance proposals, contributor roles, and community leadership opportunities, fostering long-term engagement."
+                  "Academy graduates gain early access to AlphaDAO governance proposals, contributor roles, and community leadership opportunities, fostering long-term engagement."
                 }
               </p>
             </Card>
@@ -641,7 +641,7 @@ export default function AcademyPage() {
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Outcomes & Opportunities"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {
-                "AlphaDAO Bootcamp graduates gain access to a wide range of career opportunities, from employment at Web3 companies to building their own startups or contributing to DAOs."
+                "AlphaDAO Academy graduates gain access to a wide range of career opportunities, from employment at Web3 companies to building their own startups or contributing to DAOs."
               }
             </p>
           </div>
@@ -697,7 +697,7 @@ export default function AcademyPage() {
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Partners & Sponsors"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {
-                "AlphaDAO Bootcamp collaborates with ecosystem partners, institutions, communities, and sponsors who help shape curriculum, provide resources, and hire talent."
+                "AlphaDAO Academy collaborates with ecosystem partners, institutions, communities, and sponsors who help shape curriculum, provide resources, and hire talent."
               }
             </p>
           </div>
@@ -716,26 +716,26 @@ export default function AcademyPage() {
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-muted-foreground leading-relaxed italic">
               {
-                "Note: Partners help shape curriculum, provide mentorship, offer job opportunities, and support scholarship programs. Interested in partnering with AlphaDAO Bootcamp? Contact us to learn more."
+                "Note: Partners help shape curriculum, provide mentorship, offer job opportunities, and support scholarship programs. Interested in partnering with AlphaDAO Academy? Contact us to learn more."
               }
             </p>
           </div>
         </div>
       </section>
 
-      {/* Bootcamp History */}
+      {/* Academy History */}
       <section className="border-b border-border bg-muted/30">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Bootcamp History & Credibility"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Academy History & Credibility"}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               {
-                "AlphaDAO Bootcamp launched in early 2025 with a mission to bridge the global skills gap in blockchain development and Web3 competencies. Since inception, we've continuously iterated based on learner feedback, industry demand, and technological advances."
+                "AlphaDAO Academy launched in early 2025 with a mission to bridge the global skills gap in blockchain development and Web3 competencies. Since inception, we've continuously iterated based on learner feedback, industry demand, and technological advances."
               }
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left">
               <Card className="p-6">
-                <h4 className="font-bold mb-2">{"First Bootcamp Launched in Early 2025"}</h4>
+                <h4 className="font-bold mb-2">{"First Academy Launched in Early 2025"}</h4>
                 <p className="text-sm text-muted-foreground">
                   {"Inaugural cohort focused on TON blockchain development and Telegram Mini Apps."}
                 </p>
@@ -768,7 +768,7 @@ export default function AcademyPage() {
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed text-pretty mb-12">
               {
-                "Join AlphaDAO Bootcamp and gain the practical skills, verifiable credentials, and career opportunities needed to thrive in the Web3 economy."
+                "Join AlphaDAO Academy and gain the practical skills, verifiable credentials, and career opportunities needed to thrive in the Web3 economy."
               }
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

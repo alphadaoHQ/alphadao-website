@@ -26,7 +26,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-muted/30 mb-8 text-sm font-mono">
               <span className="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              {"Active Protocol"}
+              {"Active Community DAO"}
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6">
               {"Building Skills, Products, and Community-Owned Infrastructure"}
@@ -100,10 +100,10 @@ export default function HomePage() {
               <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
                 <GraduationCap className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">{"AlphaDAO Bootcamp"}</h3>
+              <h3 className="text-2xl font-bold mb-4">{"AlphaDAO Academy"}</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 {
-                  "Our education and talent development arm provides structured learning pathways for blockchain developers, protocol designers, and Web3 builders. Bootcamp emphasizes hands-on experience, mentorship from protocol contributors, and verifiable skill certification through on-chain credentials."
+                  "Our education and talent development arm provides structured learning pathways for blockchain developers, protocol designers, and Web3 builders. Academy emphasizes hands-on experience, mentorship from protocol contributors, and verifiable skill certification through on-chain credentials."
                 }
               </p>
               <ul className="space-y-3 mb-6">
