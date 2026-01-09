@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import Link from "next/link"
 import {
   ArrowRight,
   Shield,
@@ -36,7 +37,7 @@ export default function RecertifyPage() {
                 "Recertify is a blockchain-based certification and reputation system that allows institutions and communities to issue, verify, and manage credentials securely using NFTs and Soulbound Tokens (SBTs). Built on decentralized infrastructure, Recertify enables trustless verification, portable reputation, and cryptographically secured professional identity management."
               }
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+<div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" className="text-base px-8">
                 {"Launch on Telegram"}
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -44,7 +45,69 @@ export default function RecertifyPage() {
               <Button size="lg" variant="outline" className="text-base px-8 bg-transparent">
                 {"Partner with Recertify"}
               </Button>
+              <Button size="lg" variant="secondary" className="text-base px-8">
+                {"Expert Dashboard"}
+                <BarChart3 className="ml-2 h-5 w-5" />
+              </Button>
+              <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
+                <Link href="/docs">
+                  {"Documentation"}
+                  <FileCheck className="ml-2 h-5 w-5" />
+                </Link>
+              </Button>
             </div>
+          </div>
+        </div>
+</section>
+
+      {/* Dashboard Preview Section */}
+      <section className="border-b border-border bg-muted/30">
+        <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"Enterprise-Grade Dashboard"}</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              {
+                "Powerful analytics and credential management interface designed for institutions, DAOs, and organizations requiring comprehensive oversight and control."
+              }
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8 items-center">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-slate-900/20 to-slate-800/20 rounded-2xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
+              <div className="relative overflow-hidden rounded-2xl border-2 border-border/50 shadow-2xl">
+                <img 
+                  src="/recertify1.PNG" 
+                  alt="Recertify Dashboard Overview" 
+                  className="w-full h-auto object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent pointer-events-none"></div>
+              </div>
+            </div>
+
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-slate-800/20 to-slate-900/20 rounded-2xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
+              <div className="relative overflow-hidden rounded-2xl border-2 border-border/50 shadow-2xl">
+                <img 
+                  src="/recertify2.PNG" 
+                  alt="Recertify Analytics Dashboard" 
+                  className="w-full h-auto object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent pointer-events-none"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-16 text-center">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-background/50 backdrop-blur-sm mb-6 text-sm font-mono">
+              <span className="inline-block w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+              {"Live Dashboard Preview"}
+            </div>
+            <p className="text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              {
+                "Advanced credential analytics, real-time verification metrics, and comprehensive management tools for organizations requiring enterprise-grade oversight and control."
+              }
+            </p>
           </div>
         </div>
       </section>
@@ -198,7 +261,7 @@ export default function RecertifyPage() {
                 <h3 className="text-xl font-bold mb-3">{"Institution Issues Certificate"}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {
-                    "Educational institutions, bootcamps, DAOs, or employers mint NFT or SBT credentials on-chain with metadata describing skills, competencies, and completion criteria."
+                    "Educational institutions, academies, DAOs, or employers mint NFT or SBT credentials on-chain with metadata describing skills, competencies, and completion criteria."
                   }
                 </p>
               </div>
@@ -269,10 +332,10 @@ export default function RecertifyPage() {
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">{"Bootcamps & Educators"}</h3>
+              <h3 className="text-xl font-bold mb-3">{"Academies & Educators"}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {
-                  "Issue tamper-proof certificates to students completing courses, bootcamps, or degree programs. Enable graduates to prove their skills trustlessly to employers worldwide."
+                  "Issue tamper-proof certificates to students completing courses, academy programs, or degree programs. Enable graduates to prove their skills trustlessly to employers worldwide."
                 }
               </p>
             </Card>
@@ -460,7 +523,7 @@ export default function RecertifyPage() {
               <h3 className="text-lg font-bold mb-2">{"Community-First Distribution"}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {
-                  "Built for DAOs, bootcamps, and Web3 communities. Recertify integrates natively with decentralized ecosystems rather than retrofitting legacy systems."
+                  "Built for DAOs, academies, and Web3 communities. Recertify integrates natively with decentralized ecosystems rather than retrofitting legacy systems."
                 }
               </p>
             </div>

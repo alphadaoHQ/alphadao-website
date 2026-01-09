@@ -7,12 +7,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <div className="flex items-center gap-2 font-bold text-xl mb-4">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground text-sm font-mono">{"α"}</span>
-              </div>
+<Link href="/" className="flex items-center gap-2 font-bold text-xl mb-4">
+              <img src="/new-logo.png" alt="AlphaDAO" className="w-8 h-8" />
               {"AlphaDAO"}
-            </div>
+            </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               {
                 "A decentralized autonomous organization building skills, products, and community-owned infrastructure for the Web3 ecosystem."
@@ -50,8 +48,8 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{"Community"}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/bootcamp" className="text-muted-foreground hover:text-foreground transition-colors">
-                  {"Bootcamp"}
+<Link href="/academy" className="text-muted-foreground hover:text-foreground transition-colors">
+                  {"Academy"}
                 </Link>
               </li>
               <li>

@@ -144,9 +144,9 @@ export default function HomePage() {
                   <span>{"Verifiable on-chain certifications via Recertify"}</span>
                 </li>
               </ul>
-              <Button variant="link" className="p-0 h-auto" asChild>
-                <Link href="/bootcamp">
-                  {"Explore Bootcamp programs"}
+<Button variant="link" className="p-0 h-auto" asChild>
+                <Link href="/academy">
+                  {"Explore Academy programs"}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -183,6 +183,407 @@ export default function HomePage() {
                 </Link>
               </Button>
             </Card>
+          </div>
+        </div>
+</section>
+
+      {/* People We Work With Section */}
+      <section className="border-b border-border bg-muted/30 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"People We Work With"}</h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              {
+                "We collaborate with leading organizations, institutions, and protocols to advance decentralized education and credential infrastructure. Our partners represent the forefront of Web3 innovation, academic excellence, and enterprise adoption."
+              }
+            </p>
+          </div>
+
+          <div className="relative">
+            <div className="flex animate-scroll-x space-x-12">
+              {/* First set */}
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Ethereum Foundation"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"ConsenSys"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"MIT Media Lab"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Chainlink"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Uniswap"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Arbitrum"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"OpenZeppelin"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Harvard Innovation"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Aave"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"The Graph"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Stanford Blockchain"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Polygon"}</div>
+              </div>
+              {/* Duplicate set for seamless loop */}
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Ethereum Foundation"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"ConsenSys"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"MIT Media Lab"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Chainlink"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Uniswap"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Arbitrum"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"OpenZeppelin"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Harvard Innovation"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Aave"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"The Graph"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Stanford Blockchain"}</div>
+              </div>
+              <div className="flex items-center justify-center h-16 grayscale hover:grayscale-0 transition-all duration-300 min-w-fit px-6">
+                <div className="text-sm font-mono text-muted-foreground">{"Polygon"}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="border-b border-border overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">{"What Our Community Says"}</h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              {
+                "Hear from builders, educators, and partners who are transforming credential infrastructure with AlphaDAO. Their experiences demonstrate the real-world impact of decentralized verification and community-owned protocols."
+              }
+            </p>
+          </div>
+
+          <div className="relative">
+            <div className="flex animate-scroll-x space-x-6">
+              {/* First set of testimonials */}
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Users className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "AlphaDAO's Recertify protocol has revolutionized how we issue and verify credentials at our institution. The on-chain verification eliminates fraud while giving students true ownership of their achievements."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Dr. Sarah Chen"}</div>
+                      <div className="text-sm text-muted-foreground">{"Dean of Digital Innovation, MIT"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Lightbulb className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "As a protocol developer, I appreciate AlphaDAO's commitment to open-source infrastructure. Their credential standards have become the de facto choice for DAOs looking to verify member skills and contributions."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Marcus Rodriguez"}</div>
+                      <div className="text-sm text-muted-foreground">{"Core Developer, Uniswap"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <GraduationCap className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "The AlphaDAO Academy program transformed my career. Earning verifiable on-chain credentials opened doors to opportunities I never thought possible. The community support is incredible."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Aisha Johnson"}</div>
+                      <div className="text-sm text-muted-foreground">{"Smart Contract Developer, ConsenSys"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Building2 className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "AlphaDAO Foundation's grant program enabled us to build critical infrastructure for credential verification. Their transparent governance and community-first approach sets the standard for DAO operations."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"David Kim"}</div>
+                      <div className="text-sm text-muted-foreground">{"Founder, Chainlink Labs"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Shield className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "Security and trust are paramount in credential systems. AlphaDAO's cryptographic verification and decentralized architecture provide exactly what enterprises need for tamper-proof certification."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Jennifer Wu"}</div>
+                      <div className="text-sm text-muted-foreground">{"Security Lead, OpenZeppelin"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Vote className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "Participating in AlphaDAO governance has been incredibly rewarding. The community's thoughtful approach to protocol evolution and transparent decision-making creates real value for all stakeholders."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Thomas Anderson"}</div>
+                      <div className="text-sm text-muted-foreground">{"DAO Governance Expert"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              {/* Duplicate set for seamless loop */}
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Users className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "AlphaDAO's Recertify protocol has revolutionized how we issue and verify credentials at our institution. The on-chain verification eliminates fraud while giving students true ownership of their achievements."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Dr. Sarah Chen"}</div>
+                      <div className="text-sm text-muted-foreground">{"Dean of Digital Innovation, MIT"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Lightbulb className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "As a protocol developer, I appreciate AlphaDAO's commitment to open-source infrastructure. Their credential standards have become the de facto choice for DAOs looking to verify member skills and contributions."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Marcus Rodriguez"}</div>
+                      <div className="text-sm text-muted-foreground">{"Core Developer, Uniswap"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <GraduationCap className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "The AlphaDAO Academy program transformed my career. Earning verifiable on-chain credentials opened doors to opportunities I never thought possible. The community support is incredible."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Aisha Johnson"}</div>
+                      <div className="text-sm text-muted-foreground">{"Smart Contract Developer, ConsenSys"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Building2 className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "AlphaDAO Foundation's grant program enabled us to build critical infrastructure for credential verification. Their transparent governance and community-first approach sets the standard for DAO operations."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"David Kim"}</div>
+                      <div className="text-sm text-muted-foreground">{"Founder, Chainlink Labs"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Shield className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "Security and trust are paramount in credential systems. AlphaDAO's cryptographic verification and decentralized architecture provide exactly what enterprises need for tamper-proof certification."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Jennifer Wu"}</div>
+                      <div className="text-sm text-muted-foreground">{"Security Lead, OpenZeppelin"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-8 border-2 min-w-[380px]">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Vote className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-1 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} className="text-yellow-500">{"★"}</span>
+                      ))}
+                    </div>
+                    <blockquote className="text-muted-foreground leading-relaxed mb-4">
+                      {
+                        "Participating in AlphaDAO governance has been incredibly rewarding. The community's thoughtful approach to protocol evolution and transparent decision-making creates real value for all stakeholders."
+                      }
+                    </blockquote>
+                    <div>
+                      <div className="font-semibold">{"Thomas Anderson"}</div>
+                      <div className="text-sm text-muted-foreground">{"DAO Governance Expert"}</div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
@@ -462,7 +863,7 @@ export default function HomePage() {
                       <span className="text-xs text-muted-foreground">{"4d left"}</span>
                     </div>
                     <p className="text-xs text-muted-foreground mb-3">
-                      {"Proposal to allocate additional 500K tokens to Q1 bootcamp cohort funding."}
+                      {"Proposal to allocate additional 500K tokens to Q1 academy cohort funding."}
                     </p>
                     <div className="flex items-center gap-4 text-xs">
                       <div className="flex items-center gap-1">
