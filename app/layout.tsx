@@ -4,6 +4,7 @@ import { Space_Grotesk, Space_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { LoadingScreen } from "@/components/loading-screen"
 import "./globals.css"
 
 const _spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`font-sans antialiased`}>
+        <LoadingScreen />
         <Header />
         {children}
         <Footer />

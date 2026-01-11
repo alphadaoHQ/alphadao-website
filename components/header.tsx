@@ -4,9 +4,11 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
+import { usePathname } from "next/navigation"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
 
   const navItems = [
     { label: "About", href: "/about" },
@@ -16,6 +18,7 @@ export function Header() {
     { label: "Foundation", href: "/foundation" },
     { label: "Governance", href: "/governance" },
     { label: "Blog", href: "/blog" },
+    { label: "Whitepaper", href: "/ALPHA DAO Whitepaper.pdf", external: true },
   ]
 
   return (
@@ -28,15 +31,32 @@ export function Header() {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-1">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md hover:bg-muted"
-            >
-              {item.label}
-            </Link>
-          ))}
+          {navItems.map((item) => {
+            const isActive = pathname === item.href
+            return item.external ? (
+              <a
+                key={item.href}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm font-medium transition-colors rounded-md hover:bg-muted text-muted-foreground hover:text-foreground"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`px-4 py-2 text-sm font-medium transition-colors rounded-md hover:bg-muted ${
+                  isActive 
+                    ? "text-purple-400 bg-purple-500/10" 
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {item.label}
+              </Link>
+            )
+          })}
         </div>
 
         <div className="hidden lg:flex items-center gap-3">
@@ -55,16 +75,34 @@ export function Header() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-border bg-background">
           <div className="px-6 py-4 space-y-2">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md hover:bg-muted"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {item.label}
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isActive = pathname === item.href
+              return item.external ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-2 text-sm font-medium transition-colors rounded-md hover:bg-muted text-muted-foreground hover:text-foreground"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`block px-4 py-2 text-sm font-medium transition-colors rounded-md hover:bg-muted ${
+                    isActive 
+                      ? "text-purple-400 bg-purple-500/10" 
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              )
+            })}
             <div className="pt-4 border-t border-border">
               <Button className="w-full" asChild>
                 <Link href="/#join">{"Join the DAO"}</Link>

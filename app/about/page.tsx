@@ -7,17 +7,20 @@ import { ArrowRight, Target, Compass, TrendingUp } from "lucide-react"
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen">
-      <section className="border-b border-border">
+    <main className="min-h-screen relative bg-cover bg-center bg-no-repeat bg-fixed" style={{ backgroundImage: 'url(/bng.jpg)' }}>
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/90" />
+      
+      <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-muted/30 mb-6 text-xs font-mono uppercase tracking-wide">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/30 bg-black/40 backdrop-blur-sm mb-6 text-xs font-mono uppercase tracking-wide text-white">
               {"About the Protocol"}
             </div>
-            <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-8">
+            <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-8 text-white">
               {"AlphaDAO: Decentralized Infrastructure for Education and Credentialing"}
             </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
+            <p className="text-xl text-gray-200 leading-relaxed text-pretty">
               {
                 "AlphaDAO represents a fundamental reimagining of how educational infrastructure, professional credentials, and skill verification systems are built and governed. Founded on principles of decentralization, transparency, and community ownership, we develop protocol-level solutions that enable trustless credential issuance, verifiable skill attestation, and composable reputation systems for the Web3 ecosystem and beyond."
               }
@@ -27,11 +30,11 @@ export default function AboutPage() {
       </section>
 
       {/* Team Avatars Section */}
-      <section className="border-b border-border bg-muted/30">
+      <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">{"Our Team"}</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4 text-white">{"Our Team"}</h2>
+            <p className="text-lg text-gray-200 max-w-2xl mx-auto">
               {"Driven by builders, researchers, and educators passionate about decentralized infrastructure"}
             </p>
           </div>
@@ -136,12 +139,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="border-b border-border">
+      <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-bold mb-6">{"Origin and Mission"}</h2>
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <h2 className="text-3xl font-bold mb-6 text-white">{"Origin and Mission"}</h2>
+              <div className="space-y-4 text-gray-200 leading-relaxed">
                 <p>
                   {
                     "AlphaDAO emerged from recognition of systemic failures in traditional credentialing systems: centralized control by gatekeeping institutions, lack of interoperability between platforms, absence of cryptographic verification, and limited accessibility for global populations. These structural inefficiencies create friction in labor markets, reduce trust in educational qualifications, and prevent individuals from truly owning their professional identities."
@@ -161,14 +164,14 @@ export default function AboutPage() {
             </div>
 
             <div className="space-y-6">
-              <Card className="p-8 border-2">
+              <Card className="p-8 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
                     <Target className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">{"Core Mission"}</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <h3 className="text-xl font-bold mb-2 text-white">{"Core Mission"}</h3>
+                    <p className="text-sm text-gray-200 leading-relaxed">
                       {
                         "Build decentralized infrastructure for verifiable credentials, skill certification, and reputation systems that serve the global Web3 ecosystem."
                       }
@@ -177,14 +180,14 @@ export default function AboutPage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2">
+              <Card className="p-8 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
                     <Compass className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">{"Strategic Vision"}</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <h3 className="text-xl font-bold mb-2 text-white">{"Strategic Vision"}</h3>
+                    <p className="text-sm text-gray-200 leading-relaxed">
                       {
                         "Establish AlphaDAO as the trusted protocol for on-chain credentials, enabling permissionless professional identity and trustless skill verification globally."
                       }
@@ -193,14 +196,14 @@ export default function AboutPage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2">
+              <Card className="p-8 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
                     <TrendingUp className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">{"Operational Approach"}</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <h3 className="text-xl font-bold mb-2 text-white">{"Operational Approach"}</h3>
+                    <p className="text-sm text-gray-200 leading-relaxed">
                       {
                         "Balance rapid innovation with protocol sustainability through transparent governance, progressive decentralization, and community-aligned development practices."
                       }
@@ -213,11 +216,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="border-b border-border bg-muted/30">
+      <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">{"Operating Principles"}</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-4xl font-bold mb-6 text-white">{"Operating Principles"}</h2>
+            <p className="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed">
               {
                 "AlphaDAO adheres to foundational principles that guide protocol development, governance decisions, and community interactions. These principles ensure alignment with our mission while maintaining operational flexibility."
               }
@@ -225,54 +228,54 @@ export default function AboutPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            <Card className="p-6">
-              <h3 className="text-lg font-bold mb-3">{"Decentralization by Design"}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+            <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
+              <h3 className="text-lg font-bold mb-3 text-white">{"Decentralization by Design"}</h3>
+              <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "We architect systems to minimize central points of control and maximize community participation. Progressive decentralization ensures stability during protocol maturation while maintaining commitment to eventual full community governance."
                 }
               </p>
             </Card>
 
-            <Card className="p-6">
-              <h3 className="text-lg font-bold mb-3">{"Transparency as Default"}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+            <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
+              <h3 className="text-lg font-bold mb-3 text-white">{"Transparency as Default"}</h3>
+              <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "All governance proposals, treasury transactions, development decisions, and partnership agreements occur with full community visibility. We publish regular reports on protocol health, financial status, and strategic direction."
                 }
               </p>
             </Card>
 
-            <Card className="p-6">
-              <h3 className="text-lg font-bold mb-3">{"Community Ownership"}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+            <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
+              <h3 className="text-lg font-bold mb-3 text-white">{"Community Ownership"}</h3>
+              <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "AlphaDAO belongs to its community of contributors, token holders, and ecosystem participants. Value generated by the protocol accrues to the community rather than extractive intermediaries or centralized entities."
                 }
               </p>
             </Card>
 
-            <Card className="p-6">
-              <h3 className="text-lg font-bold mb-3">{"Public Good Orientation"}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+            <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
+              <h3 className="text-lg font-bold mb-3 text-white">{"Public Good Orientation"}</h3>
+              <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Our infrastructure serves the broader Web3 ecosystem. We prioritize open-source development, permissionless access, and protocol composability to maximize positive externalities for builders globally."
                 }
               </p>
             </Card>
 
-            <Card className="p-6">
-              <h3 className="text-lg font-bold mb-3">{"Long-Term Sustainability"}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+            <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
+              <h3 className="text-lg font-bold mb-3 text-white">{"Long-Term Sustainability"}</h3>
+              <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "We optimize for decades of operation rather than short-term extraction. Treasury management, protocol economics, and governance structures prioritize multi-decade sustainability and continuous value creation."
                 }
               </p>
             </Card>
 
-            <Card className="p-6">
-              <h3 className="text-lg font-bold mb-3">{"Verifiable Execution"}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+            <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
+              <h3 className="text-lg font-bold mb-3 text-white">{"Verifiable Execution"}</h3>
+              <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Claims about protocol functionality, governance outcomes, and credential validity are cryptographically verifiable. We build systems that enable trustless verification rather than requiring faith in authorities."
                 }
@@ -282,22 +285,22 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="border-b border-border">
+      <section className="relative border-b border-white/10">
         <div className="max-w-4xl mx-auto px-6 py-24 lg:py-32 text-center">
-          <h2 className="text-3xl font-bold mb-6">{"Join the Protocol"}</h2>
-          <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+          <h2 className="text-3xl font-bold mb-6 text-white">{"Join the Protocol"}</h2>
+          <p className="text-lg text-gray-200 mb-8 leading-relaxed">
             {
               "AlphaDAO welcomes contributors who share our vision for decentralized education infrastructure. Participate in governance, contribute to protocol development, or engage with our community of builders."
             }
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" asChild>
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
               <Link href="/#join">
                 {"Join the Community"}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild>
+            <Button size="lg" variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
               <Link href="/governance">{"View Governance"}</Link>
             </Button>
           </div>

@@ -2,14 +2,14 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight, Shield, Users, Vote, FileText, Lock, TrendingUp, AlertCircle } from "lucide-react"
-import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export default function GovernancePage() {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
+    <div className="min-h-screen relative bg-cover bg-center bg-no-repeat bg-fixed" style={{ backgroundImage: 'url(/grok_image_oatei0.jpg)' }}>
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/85" />
+      <main className="relative">
         {/* Hero Section */}
         <section className="relative py-24 lg:py-32 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">

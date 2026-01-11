@@ -20,9 +20,11 @@ import {
 
 export default function RecertifyPage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative bg-cover bg-center bg-no-repeat bg-fixed" style={{ backgroundImage: 'url(/grok_image_oatei0.jpg)' }}>
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/85" />
       {/* Hero Section */}
-      <section className="border-b border-border">
+      <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-32 lg:py-40">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-muted/30 mb-8 text-sm font-mono">
