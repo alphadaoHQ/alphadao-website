@@ -123,6 +123,19 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Preload critical images */
+  body::before {
+    content: '';
+    position: absolute;
+    left: -9999px;
+    background-image: 
+      url('/grok_image_oatei0.jpg'),
+      url('/home-bng.jpg'),
+      url('/bng-body.jpg'),
+      url('/apple-icon.png'),
+      url('/new-logo.png');
+  }
 }
 
 @layer utilities {
@@ -137,5 +150,16 @@
     100% {
       transform: translateX(-50%);
     }
+  }
+  
+  /* Performance optimizations */
+  .bg-optimized {
+    background-attachment: scroll;
+    will-change: transform;
+    transform: translateZ(0);
+  }
+  
+  .smooth-transition {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
