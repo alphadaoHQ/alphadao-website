@@ -139,6 +139,30 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* YouTube Video Section */}
+      <section className="relative border-b border-white/10">
+        <div className="max-w-5xl mx-auto px-6 py-24 lg:py-32">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4 text-white">{"Learn More About AlphaDAO"}</h2>
+            <p className="text-lg text-gray-200 max-w-2xl mx-auto">
+              {"Watch our latest video to understand our mission and vision"}
+            </p>
+          </div>
+          <div className="aspect-video rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/5r6iPciyOAU"
+              title="AlphaDAO Overview"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-16">

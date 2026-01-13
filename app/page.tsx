@@ -104,16 +104,15 @@ export default function HomePage() {
             </p>
           </div>
           <div className="aspect-video rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
-            <iframe
+            <video
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/KHm0uUPqmVE?si=dumpCJcnQ8Ei1yFA"
-              title="AlphaDAO Overview"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full"
-            />
+              controls
+              className="w-full h-full object-cover"
+            >
+              <source src="/AlphaDAOvid.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </section>
