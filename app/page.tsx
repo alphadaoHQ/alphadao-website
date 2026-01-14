@@ -10,7 +10,6 @@ import {
   Vote,
   Github,
   MessageSquare,
-  Twitter,
   CheckCircle2,
   Database,
   GraduationCap,
@@ -1023,7 +1022,7 @@ export default function HomePage() {
                 </li>
               </ul>
               <Button size="lg" className="w-full bg-primary hover:bg-primary/90" asChild>
-                <Link href="https://t.me/alphadao">
+                <Link href="https://t.me/AlphaDaoHub">
                   {"Join on Telegram"}
                   <MessageSquare className="ml-2 h-5 w-5" />
                 </Link>
@@ -1067,19 +1066,37 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://t.me/alphadao" className="gap-2">
+                <Link href="https://t.me/AlphaDaoHub" className="gap-2">
                   <MessageSquare className="h-5 w-5" />
                   {"Telegram"}
                 </Link>
               </Button>
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://twitter.com/alphadao" className="gap-2">
-                  <Twitter className="h-5 w-5" />
-                  {"Twitter"}
+                <Link href="https://x.com/Alpha_Daos" className="gap-2">
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  {"AlphaDAO"}
                 </Link>
               </Button>
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://github.com/alphadao" className="gap-2">
+                <Link href="https://x.com/AlphaDAOLabs" className="gap-2">
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  {"Labs"}
+                </Link>
+              </Button>
+              <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
+                <Link href="https://x.com/AlphaDAOAcademy" className="gap-2">
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  {"Academy"}
+                </Link>
+              </Button>
+              <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
+                <Link href="https://github.com/alphadaoHQ" className="gap-2">
                   <Github className="h-5 w-5" />
                   {"GitHub"}
                 </Link>
