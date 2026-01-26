@@ -60,8 +60,10 @@ export default function HomePage() {
               <span className="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse" />
               {"Active Community DAO"}
             </div>
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 text-white">
+            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 ">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {"Building Skills, Products, and Community-Owned Infrastructure"}
+              </span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty mb-12 max-w-3xl mx-auto">
               {
@@ -97,7 +99,11 @@ export default function HomePage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-5xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4 text-white">{"Watch: Understanding AlphaDAO"}</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Watch: Understanding AlphaDAO"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 max-w-2xl mx-auto">
               {"Learn about our vision for decentralized education and credential infrastructure"}
             </p>
@@ -120,7 +126,11 @@ export default function HomePage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Organizational Structure"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Organizational Structure"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed">
               {
                 "AlphaDAO operates through three interconnected divisions, each serving a distinct function within the protocol ecosystem. This modular architecture enables specialized focus while maintaining coordinated strategic alignment across research, education, and capital deployment activities."
@@ -133,7 +143,11 @@ export default function HomePage() {
               <div className="w-16 h-16 rounded-xl bg-primary/20 flex items-center justify-center mb-6">
                 <Lightbulb className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-white">{"AlphaDAO Labs"}</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"AlphaDAO Labs"}
+                </span>
+              </h3>
               <p className="text-gray-200 leading-relaxed mb-6">
                 {
                   "Our research and development division focuses on building production-grade Web3 infrastructure and tooling. Labs incubates protocol-level innovations, conducts applied blockchain research, and develops open-source solutions for credentialing, reputation systems, and decentralized identity."
@@ -165,7 +179,11 @@ export default function HomePage() {
               <div className="w-16 h-16 rounded-xl bg-primary/20 flex items-center justify-center mb-6">
                 <GraduationCap className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-white">{"AlphaDAO Academy"}</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"AlphaDAO Academy"}
+                </span>
+              </h3>
               <p className="text-gray-200 leading-relaxed mb-6">
                 {
                   "Our education and talent development arm provides structured learning pathways for blockchain developers, protocol designers, and Web3 builders. Academy emphasizes hands-on experience, mentorship from protocol contributors, and verifiable skill certification through on-chain credentials."
@@ -197,7 +215,11 @@ export default function HomePage() {
               <div className="w-16 h-16 rounded-xl bg-primary/20 flex items-center justify-center mb-6">
                 <Building2 className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-white">{"AlphaDAO Foundation"}</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"AlphaDAO Foundation"}
+                </span>
+              </h3>
               <p className="text-gray-200 leading-relaxed mb-6">
                 {
                   "The treasury and capital allocation division manages protocol resources, provides grants to ecosystem builders, and makes strategic investments in Web3 infrastructure. Foundation ensures long-term sustainability through disciplined capital deployment and transparent governance."
@@ -232,7 +254,11 @@ export default function HomePage() {
       <section className="relative border-b border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"People We Work With"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"People We Work With"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed">
               {
                 "We collaborate with leading organizations, institutions, and protocols to advance decentralized education and credential infrastructure. Our partners represent the forefront of Web3 innovation, academic excellence, and enterprise adoption."
@@ -325,7 +351,11 @@ export default function HomePage() {
       <section className="relative border-b border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"What Our Community Says"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"What Our Community Says"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed">
               {
                 "Hear from builders, educators, and partners who are transforming credential infrastructure with AlphaDAO. Their experiences demonstrate the real-world impact of decentralized verification and community-owned protocols."
@@ -637,8 +667,10 @@ export default function HomePage() {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/30 bg-black/40 backdrop-blur-sm mb-6 text-xs font-mono uppercase tracking-wide text-white">
                 {"Flagship Product"}
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">
-                {"Recertify: Verifiable Credentials for Web3"}
+              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Recertify: Verifiable Credentials for Web3"}
+                </span>
               </h2>
               <p className="text-lg text-gray-200 leading-relaxed mb-6">
                 {
@@ -757,7 +789,8 @@ export default function HomePage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Protocol Advantages"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+{"Protocol Advantages"} </span></h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO represents a fundamental shift in how education, credentialing, and professional development infrastructure is built and governed. Our protocol-first approach ensures transparency, sustainability, and community alignment."
@@ -829,7 +862,8 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div>
-                <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Governance Architecture"}</h2>
+                <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+{"Governance Architecture"}</span></h2>
                 <p className="text-lg text-gray-200 leading-relaxed">
                   {
                     "AlphaDAO employs a hybrid governance model that balances agility with decentralization. Decision-making mechanisms evolve as the protocol matures, with clear processes for community participation, proposal submission, and implementation oversight."
@@ -987,7 +1021,8 @@ export default function HomePage() {
       <section id="join" className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Join the Protocol"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+{"Join the Protocol"}</span></h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO welcomes contributors, builders, researchers, and community members who share our vision for decentralized education and credential infrastructure. Multiple pathways exist for participation based on your skills and interests."

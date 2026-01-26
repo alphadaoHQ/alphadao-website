@@ -15,7 +15,9 @@ export default function GovernancePage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">
-                Transparent Governance. Sustainable Innovation.
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Transparent Governance. Sustainable Innovation.
+                </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 AlphaDAO Labs operates under a progressive governance model that balances founder leadership, community
@@ -63,7 +65,11 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border bg-muted/20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16 text-center">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">Governance Principles</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Governance Principles
+                </span>
+              </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
                 Our governance framework is built on five core principles that guide decision-making and organizational
                 evolution.
@@ -74,7 +80,11 @@ export default function GovernancePage() {
               <Card className="border-2">
                 <CardContent className="p-8">
                   <FileText className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3">Transparency by Default</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Transparency by Default
+                    </span>
+                  </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     All major decisions, financial activities, and strategic plans are documented and shared publicly.
                     Community members have visibility into governance processes and organizational operations.
@@ -85,7 +95,11 @@ export default function GovernancePage() {
               <Card className="border-2">
                 <CardContent className="p-8">
                   <Shield className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3">Accountability Over Anonymity</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Accountability Over Anonymity
+                    </span>
+                  </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Key decision-makers are publicly identified and held accountable for their actions. We reject
                     anonymous leadership while respecting privacy for individual contributors.
@@ -96,7 +110,11 @@ export default function GovernancePage() {
               <Card className="border-2">
                 <CardContent className="p-8">
                   <Users className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3">Community-Aligned Incentives</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Community-Aligned Incentives
+                    </span>
+                  </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Leadership and contributor incentives are structured to align with long-term community value
                     creation rather than short-term extraction.
@@ -107,7 +125,11 @@ export default function GovernancePage() {
               <Card className="border-2">
                 <CardContent className="p-8">
                   <TrendingUp className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3">Long-Term Sustainability</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Long-Term Sustainability
+                    </span>
+                  </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Governance decisions prioritize sustainable growth over rapid expansion. We build for decades, not
                     hype cycles.
@@ -118,7 +140,11 @@ export default function GovernancePage() {
               <Card className="border-2">
                 <CardContent className="p-8">
                   <Vote className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3">Open Participation with Safeguards</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Open Participation with Safeguards
+                    </span>
+                  </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Community participation is encouraged and accessible, but governance includes safeguards against
                     plutocracy, short-term thinking, and hostile actions.
@@ -133,7 +159,11 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">Governance Structure</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Governance Structure
+                </span>
+              </h2>
               <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
                 AlphaDAO's governance structure is designed to balance execution speed with community input. Different
                 roles carry distinct responsibilities and authorities.
@@ -148,7 +178,11 @@ export default function GovernancePage() {
                       <Shield className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-2">Founder / Executive Steward</h3>
+                      <h3 className="text-xl font-semibold mb-2">
+                        <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                          Founder / Executive Steward
+                        </span>
+                      </h3>
                       <p className="text-muted-foreground leading-relaxed mb-3">
                         Holds primary decision-making authority during the early stage. Responsible for vision setting,
                         execution oversight, product leadership, and operational management. Acts as the primary
@@ -169,7 +203,11 @@ export default function GovernancePage() {
                       <Users className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-2">Core Contributors</h3>
+                      <h3 className="text-xl font-semibold mb-2">
+                        <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                          Core Contributors
+                        </span>
+                      </h3>
                       <p className="text-muted-foreground leading-relaxed mb-3">
                         Experienced team members responsible for day-to-day execution across engineering, operations,
                         growth, and research. Core contributors advise on major decisions and lead specific functional
@@ -190,7 +228,11 @@ export default function GovernancePage() {
                       <FileText className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-2">Advisory Council</h3>
+                      <h3 className="text-xl font-semibold mb-2">
+                        <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                          Advisory Council
+                        </span>
+                      </h3>
                       <p className="text-muted-foreground leading-relaxed mb-3">
                         Advisors with deep expertise in relevant domains provide strategic guidance, ecosystem
                         connections, and external perspective. Advisory council does not hold formal authority but
@@ -211,7 +253,11 @@ export default function GovernancePage() {
                       <Vote className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-2">Community Members</h3>
+                      <h3 className="text-xl font-semibold mb-2">
+                        <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                          Community Members
+                        </span>
+                      </h3>
                       <p className="text-muted-foreground leading-relaxed mb-3">
                         All AlphaDAO participants can propose ideas, participate in discussions, and cast signaling
                         votes. Community feedback directly informs strategic decisions. Active contributors gain
@@ -232,7 +278,11 @@ export default function GovernancePage() {
                       <Lock className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-2">Future: DAO Assembly</h3>
+                      <h3 className="text-xl font-semibold mb-2">
+                        <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                          Future: DAO Assembly
+                        </span>
+                      </h3>
                       <p className="text-muted-foreground leading-relaxed mb-3">
                         In the mature stage, token-based governance will enable binding on-chain decisions. The DAO
                         Assembly will control treasury allocation, approve major strategic shifts, and elect stewards
@@ -254,7 +304,11 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border bg-muted/20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">Decision-Making Process</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Decision-Making Process
+                </span>
+              </h2>
               <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
                 Our governance workflow balances speed with community input through a structured five-step process.
               </p>
@@ -330,7 +384,11 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-8">Founder Role & Transition</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Founder Role & Transition
+                </span>
+              </h2>
 
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed mb-10">
                 <p>
@@ -370,7 +428,11 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border bg-muted/20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">Transparency & Reporting</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Transparency & Reporting
+                </span>
+              </h2>
               <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
                 Transparency is not optional—it's a core operating principle. AlphaDAO commits to comprehensive public
                 reporting across all major activities.
@@ -425,7 +487,11 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-8">Risk Management & Safeguards</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Risk Management & Safeguards
+                </span>
+              </h2>
 
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed mb-10">
                 <p>
@@ -483,7 +549,11 @@ export default function GovernancePage() {
         <section className="py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6">Built for the Long Term</h2>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Built for the Long Term
+                </span>
+              </h2>
               <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
                 AlphaDAO's governance model prioritizes sustainable growth, transparent accountability, and progressive
                 decentralization. We're building institutions, not experiments.

@@ -32,7 +32,9 @@ export default function AcademyPage() {
               {"Education Division"}
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 text-white">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {"Learn. Build. Get Certified."}
+              </span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty mb-12 max-w-3xl mx-auto">
               {
@@ -56,7 +58,11 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Why AlphaDAO Academy Exists"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Why AlphaDAO Academy Exists"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "The current education system fails to prepare individuals for the demands of the decentralized economy. AlphaDAO Academy bridges this gap with practical, community-driven learning."
@@ -69,7 +75,11 @@ export default function AcademyPage() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-destructive/10 mb-4">
                 <FileText className="w-8 h-8 text-destructive" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Education is Fragmented"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Education is Fragmented"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Learning resources are scattered across platforms with inconsistent quality, no clear pathways, and limited hands-on experience building real-world projects."
@@ -81,7 +91,11 @@ export default function AcademyPage() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-destructive/10 mb-4">
                 <Shield className="w-8 h-8 text-destructive" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Credentials Lack Trust"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Credentials Lack Trust"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Traditional certificates are easily forged and difficult to verify. Employers lack reliable methods to assess candidate skills beyond self-reported claims."
@@ -93,7 +107,11 @@ export default function AcademyPage() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-destructive/10 mb-4">
                 <Globe className="w-8 h-8 text-destructive" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Talent is Undervalued Globally"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Talent is Undervalued Globally"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Geographic location and institutional access limit opportunity. Skilled builders in emerging markets struggle to access global jobs despite possessing relevant competencies."
@@ -103,7 +121,11 @@ export default function AcademyPage() {
           </div>
 
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-3xl font-bold mb-6 text-white">{"The AlphaDAO Academy Solution"}</h3>
+            <h3 className="text-3xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"The AlphaDAO Academy Solution"}
+              </span>
+            </h3>
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="p-6 border-white/30 bg-black/60 backdrop-blur-sm">
                 <CheckCircle2 className="w-8 h-8 text-primary mb-3 mx-auto" />
@@ -135,7 +157,11 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Who the Academy Is For"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Who the Academy Is For"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Academy serves a diverse range of learners, from complete beginners to experienced professionals seeking to transition into Web3 and blockchain development."
@@ -148,7 +174,11 @@ export default function AcademyPage() {
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <GraduationCap className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Beginners (Zero Experience)"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Beginners (Zero Experience)"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "No prior programming or blockchain knowledge required. Start from fundamentals and build competency through guided, incremental learning pathways."
@@ -160,7 +190,11 @@ export default function AcademyPage() {
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <Code className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Developers & Builders"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Developers & Builders"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Experienced programmers looking to transition into blockchain development, smart contract engineering, and decentralized application architecture."
@@ -172,7 +206,11 @@ export default function AcademyPage() {
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <Palette className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Designers & Creators"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Designers & Creators"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Product designers, UI/UX professionals, and content creators seeking to understand Web3 product design, tokenomics, and decentralized user experiences."
@@ -184,7 +222,11 @@ export default function AcademyPage() {
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <MessageSquare className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Community Managers"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Community Managers"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Learn how DAOs function, governance mechanisms, community building strategies, and Web3-native communication and coordination tools."
@@ -196,7 +238,11 @@ export default function AcademyPage() {
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <Briefcase className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Career Switchers"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Career Switchers"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Professionals from traditional industries seeking to pivot into blockchain, DeFi, NFTs, and Web3 with structured guidance and mentorship."
@@ -208,7 +254,11 @@ export default function AcademyPage() {
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{"Students & Graduates"}</h3>
+              <h3 className="text-xl font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Students & Graduates"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "University students and recent graduates looking to supplement academic learning with practical, job-ready skills in cutting-edge blockchain technology."
@@ -223,7 +273,11 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Learning Tracks"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Learning Tracks"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Academy offers specialized learning tracks designed to meet diverse skill-building goals. Tracks evolve with ecosystem demand and community input."
@@ -233,7 +287,11 @@ export default function AcademyPage() {
 
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             <Card className="p-8 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-2xl font-bold mb-4 text-white">{"Web3 Fundamentals"}</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Web3 Fundamentals"}
+                </span>
+              </h3>
               <p className="text-gray-200 leading-relaxed mb-6">
                 {
                   "Introduction to blockchain technology, cryptographic principles, consensus mechanisms, wallets, and decentralized application architecture. Ideal for beginners with no prior blockchain experience."
@@ -256,7 +314,11 @@ export default function AcademyPage() {
             </Card>
 
             <Card className="p-8 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-2xl font-bold mb-4 text-white">{"Blockchain & TON Ecosystem"}</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Blockchain & TON Ecosystem"}
+                </span>
+              </h3>
               <p className="text-gray-200 leading-relaxed mb-6">
                 {
                   "Deep dive into The Open Network (TON) architecture, scalability solutions, and Telegram integration. Learn how to build on one of the fastest-growing blockchain ecosystems."

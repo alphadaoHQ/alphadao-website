@@ -18,7 +18,9 @@ export default function AboutPage() {
               {"About the Protocol"}
             </div>
             <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-8 text-white">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {"AlphaDAO: Decentralized Infrastructure for Education and Credentialing"}
+              </span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty">
               {
@@ -33,7 +35,11 @@ export default function AboutPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4 text-white">{"Our Team"}</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Our Team"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 max-w-2xl mx-auto">
               {"Driven by builders, researchers, and educators passionate about decentralized infrastructure"}
             </p>
@@ -143,7 +149,11 @@ export default function AboutPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-5xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4 text-white">{"Learn More About AlphaDAO"}</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Learn More About AlphaDAO"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 max-w-2xl mx-auto">
               {"Watch our latest video to understand our mission and vision"}
             </p>
@@ -167,7 +177,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-white">{"Origin and Mission"}</h2>
+              <h2 className="text-3xl font-bold mb-6">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Origin and Mission"}
+                </span>
+              </h2>
               <div className="space-y-4 text-gray-200 leading-relaxed">
                 <p>
                   {
@@ -194,7 +208,11 @@ export default function AboutPage() {
                     <Target className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-white">{"Core Mission"}</h3>
+                    <h3 className="text-xl font-bold mb-2">
+                      <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                        {"Core Mission"}
+                      </span>
+                    </h3>
                     <p className="text-sm text-gray-200 leading-relaxed">
                       {
                         "Build decentralized infrastructure for verifiable credentials, skill certification, and reputation systems that serve the global Web3 ecosystem."
@@ -210,7 +228,11 @@ export default function AboutPage() {
                     <Compass className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-white">{"Strategic Vision"}</h3>
+                    <h3 className="text-xl font-bold mb-2">
+                      <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                        {"Strategic Vision"}
+                      </span>
+                    </h3>
                     <p className="text-sm text-gray-200 leading-relaxed">
                       {
                         "Establish AlphaDAO as the trusted protocol for on-chain credentials, enabling permissionless professional identity and trustless skill verification globally."
@@ -226,7 +248,11 @@ export default function AboutPage() {
                     <TrendingUp className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-white">{"Operational Approach"}</h3>
+                    <h3 className="text-xl font-bold mb-2">
+                      <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                        {"Operational Approach"}
+                      </span>
+                    </h3>
                     <p className="text-sm text-gray-200 leading-relaxed">
                       {
                         "Balance rapid innovation with protocol sustainability through transparent governance, progressive decentralization, and community-aligned development practices."
@@ -243,7 +269,11 @@ export default function AboutPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6 text-white">{"Operating Principles"}</h2>
+            <h2 className="text-4xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Operating Principles"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed">
               {
                 "AlphaDAO adheres to foundational principles that guide protocol development, governance decisions, and community interactions. These principles ensure alignment with our mission while maintaining operational flexibility."
@@ -253,7 +283,11 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-lg font-bold mb-3 text-white">{"Decentralization by Design"}</h3>
+              <h3 className="text-lg font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Decentralization by Design"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "We architect systems to minimize central points of control and maximize community participation. Progressive decentralization ensures stability during protocol maturation while maintaining commitment to eventual full community governance."
@@ -262,7 +296,11 @@ export default function AboutPage() {
             </Card>
 
             <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-lg font-bold mb-3 text-white">{"Transparency as Default"}</h3>
+              <h3 className="text-lg font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Transparency as Default"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "All governance proposals, treasury transactions, development decisions, and partnership agreements occur with full community visibility. We publish regular reports on protocol health, financial status, and strategic direction."
@@ -271,7 +309,11 @@ export default function AboutPage() {
             </Card>
 
             <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-lg font-bold mb-3 text-white">{"Community Ownership"}</h3>
+              <h3 className="text-lg font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Community Ownership"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "AlphaDAO belongs to its community of contributors, token holders, and ecosystem participants. Value generated by the protocol accrues to the community rather than extractive intermediaries or centralized entities."
@@ -280,7 +322,11 @@ export default function AboutPage() {
             </Card>
 
             <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-lg font-bold mb-3 text-white">{"Public Good Orientation"}</h3>
+              <h3 className="text-lg font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Public Good Orientation"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Our infrastructure serves the broader Web3 ecosystem. We prioritize open-source development, permissionless access, and protocol composability to maximize positive externalities for builders globally."
@@ -289,7 +335,11 @@ export default function AboutPage() {
             </Card>
 
             <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-lg font-bold mb-3 text-white">{"Long-Term Sustainability"}</h3>
+              <h3 className="text-lg font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Long-Term Sustainability"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "We optimize for decades of operation rather than short-term extraction. Treasury management, protocol economics, and governance structures prioritize multi-decade sustainability and continuous value creation."
@@ -298,7 +348,11 @@ export default function AboutPage() {
             </Card>
 
             <Card className="p-6 border-2 border-white/30 bg-black/60 backdrop-blur-sm">
-              <h3 className="text-lg font-bold mb-3 text-white">{"Verifiable Execution"}</h3>
+              <h3 className="text-lg font-bold mb-3">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Verifiable Execution"}
+                </span>
+              </h3>
               <p className="text-sm text-gray-200 leading-relaxed">
                 {
                   "Claims about protocol functionality, governance outcomes, and credential validity are cryptographically verifiable. We build systems that enable trustless verification rather than requiring faith in authorities."
@@ -311,7 +365,11 @@ export default function AboutPage() {
 
       <section className="relative border-b border-white/10">
         <div className="max-w-4xl mx-auto px-6 py-24 lg:py-32 text-center">
-          <h2 className="text-3xl font-bold mb-6 text-white">{"Join the Protocol"}</h2>
+          <h2 className="text-3xl font-bold mb-6">
+            <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+              {"Join the Protocol"}
+            </span>
+          </h2>
           <p className="text-lg text-gray-200 mb-8 leading-relaxed">
             {
               "AlphaDAO welcomes contributors who share our vision for decentralized education infrastructure. Participate in governance, contribute to protocol development, or engage with our community of builders."

@@ -31,8 +31,10 @@ export default function RecertifyPage() {
               <span className="inline-block w-2 h-2 rounded-full bg-green-500" />
               {"Flagship Product"}
             </div>
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 text-white">
-              {"Verifiable Credentials for a Borderless Skills Economy"}
+            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Verifiable Credentials for a Borderless Skills Economy"}
+              </span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty mb-12 max-w-3xl mx-auto">
               {
@@ -62,11 +64,137 @@ export default function RecertifyPage() {
         </div>
 </section>
 
+      {/* Recertify Ecosystem Section */}
+      <section className="relative border-b border-border">
+        <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"The Recertify Ecosystem"}
+              </span>
+            </h2>
+            <p className="text-lg text-gray-200 leading-relaxed">
+              {
+                "Recertify operates as a comprehensive credential infrastructure with three interconnected components that work together to create a seamless verification experience for all stakeholders."
+              }
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="p-8 border-2 hover:border-primary transition-colors">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+                <Database className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Core"}
+                </span>
+              </h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                {
+                  "The administrative backbone for institutions and organizations. Core provides comprehensive dashboards for credential issuance, management, analytics, and institutional oversight."
+                }
+              </p>
+              <ul className="space-y-2 text-sm text-gray-200">
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Admin dashboard for issuers"}
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Bulk credential management"}
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Analytics and reporting"}
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="p-8 border-2 hover:border-primary transition-colors">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+                <Shield className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Verify"}
+                </span>
+              </h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                {
+                  "Public verification interface that enables anyone to instantly validate credential authenticity. Verify provides transparent, trustless confirmation of certifications without intermediaries."
+                }
+              </p>
+              <ul className="space-y-2 text-sm text-gray-200">
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Instant credential verification"}
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"QR code scanning"}
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Public verification portal"}
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="p-8 border-2 hover:border-primary transition-colors">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+                <Users className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  {"Mini"}
+                </span>
+              </h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                {
+                  "Learner-focused Telegram Mini App for completing tasks, taking quizzes, and managing personal credentials. Mini makes credential earning accessible and engaging for end users."
+                }
+              </p>
+              <ul className="space-y-2 text-sm text-gray-200">
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Interactive learning tasks"}
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Quiz and assessment tools"}
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                  {"Personal credential wallet"}
+                </li>
+              </ul>
+            </Card>
+          </div>
+
+          <div className="mt-16 text-center">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-background/50 backdrop-blur-sm mb-6 text-sm font-mono">
+              <span className="inline-block w-2 h-2 rounded-full bg-primary animate-pulse" />
+              {"Unified Ecosystem"}
+            </div>
+            <p className="text-sm text-gray-200 max-w-2xl mx-auto leading-relaxed">
+              {
+                "These three components work seamlessly together: institutions use Core to issue credentials, learners engage through Mini to earn them, and employers use Verify to validate them—creating a complete credential lifecycle."
+              }
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Dashboard Preview Section */}
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Enterprise-Grade Dashboard"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Enterprise-Grade Dashboard"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Powerful analytics and credential management interface designed for institutions, DAOs, and organizations requiring comprehensive oversight and control."
@@ -118,7 +246,11 @@ export default function RecertifyPage() {
      <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Trust in Credentials is Broken"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Trust in Credentials is Broken"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Traditional credential systems rely on centralized authorities, proprietary databases, and manual verification processes that create friction, enable fraud, and limit portability across institutions and borders."
@@ -182,7 +314,11 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"The Recertify Approach"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"The Recertify Approach"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Recertify leverages blockchain technology to create tamper-proof, instantly verifiable, and user-owned credentials that work across platforms, institutions, and geographic boundaries."
@@ -246,7 +382,11 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"How Recertify Works"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"How Recertify Works"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "A simple, transparent four-step process transforms traditional certification into trustless, verifiable on-chain credentials accessible to anyone, anywhere."
@@ -321,7 +461,11 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Who Recertify Serves"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Who Recertify Serves"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Recertify provides infrastructure for any organization or community that issues, manages, or verifies professional credentials and educational achievements."
@@ -385,7 +529,11 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Key Features"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Key Features"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Recertify provides a comprehensive feature set designed for institutional-grade credential management with the flexibility and transparency of decentralized infrastructure."
@@ -473,7 +621,11 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Why Recertify Is Different"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Why Recertify Is Different"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Recertify represents a fundamental architectural shift from centralized credential management to decentralized, user-owned reputation infrastructure."
@@ -561,7 +713,11 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Trust & Governance"}</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Trust & Governance"}
+              </span>
+            </h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Recertify is built and governed by AlphaDAO with transparent development practices, community input, and long-term alignment with ecosystem growth."
@@ -633,8 +789,10 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-32 lg:py-40">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6 text-white">
-              {"Start Issuing Verifiable Credentials Today"}
+            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                {"Start Issuing Verifiable Credentials Today"}
+              </span>
             </h2>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty mb-12">
               {

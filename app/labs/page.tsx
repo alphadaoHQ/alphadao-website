@@ -16,7 +16,11 @@ export default function LabsPage() {
         <section className="relative py-24 lg:py-32 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl">
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance text-white">AlphaDAO Labs</h1>
+              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  AlphaDAO Labs
+                </span>
+              </h1>
               <p className="text-xl text-gray-200 mb-8 leading-relaxed">
                 Research, Product Development, and Web3 Infrastructure
               </p>
@@ -43,7 +47,11 @@ export default function LabsPage() {
         <section className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">What We Do</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  What We Do
+                </span>
+              </h2>
               <p className="text-lg text-gray-200 max-w-3xl leading-relaxed">
                 AlphaDAO Labs operates at the intersection of research, engineering, and community collaboration. Our
                 work spans protocol design, smart contract development, infrastructure building, and applied Web3
@@ -55,7 +63,11 @@ export default function LabsPage() {
               <Card className="border-2 border-white/30 bg-black/60 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <FlaskConical className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3 text-white">Protocol & Smart Contract Research</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Protocol & Smart Contract Research
+                    </span>
+                  </h3>
                   <p className="text-gray-200 leading-relaxed">
                     We design and audit smart contract architectures, explore on-chain mechanisms, and conduct technical
                     research on blockchain primitives. Our research informs production implementations and contributes
@@ -67,7 +79,11 @@ export default function LabsPage() {
               <Card className="border-2 border-white/30 bg-black/60 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <Code2 className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3 text-white">Product Engineering & Infrastructure</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Product Engineering & Infrastructure
+                    </span>
+                  </h3>
                   <p className="text-gray-200 leading-relaxed">
                     We build full-stack Web3 applications, smart contracts, APIs, and developer tools. Our engineering
                     team ships production-grade code with emphasis on security, scalability, and maintainability across
@@ -79,7 +95,11 @@ export default function LabsPage() {
               <Card className="border-2 border-white/30 bg-black/60 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <Lightbulb className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3 text-white">Applied Research & Experimentation</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Applied Research & Experimentation
+                    </span>
+                  </h3>
                   <p className="text-gray-200 leading-relaxed">
                     We prototype new ideas, test emerging technologies, and validate product hypotheses through rapid
                     experimentation. Our applied research methodology balances innovation with pragmatic execution to
@@ -91,7 +111,11 @@ export default function LabsPage() {
               <Card className="border-2 border-white/30 bg-black/60 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <Users className="h-10 w-10 mb-4 text-primary" />
-                  <h3 className="text-xl font-semibold mb-3 text-white">Open-Source & Community Collaboration</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Open-Source & Community Collaboration
+                    </span>
+                  </h3>
                   <p className="text-gray-200 leading-relaxed">
                     We build in public and embrace open-source principles. Labs work is documented, shared, and
                     accessible to the community. We actively collaborate with contributors, researchers, and partner
@@ -112,7 +136,11 @@ export default function LabsPage() {
                   <Blocks className="h-4 w-4" />
                   Flagship Product
                 </div>
-                <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-white">Recertify</h2>
+                <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                  <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                    Recertify
+                  </span>
+                </h2>
                 <p className="text-xl text-gray-200 leading-relaxed">
                   A blockchain-based certification and reputation system using NFTs and Soulbound Tokens (SBTs) to
                   issue, verify, and manage credentials on-chain.
@@ -182,7 +210,11 @@ export default function LabsPage() {
         <section className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">How Labs Works</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  How Labs Works
+                </span>
+              </h2>
               <p className="text-lg text-gray-200 max-w-3xl leading-relaxed">
                 Our product development process is systematic, transparent, and community-informed. From initial
                 research to ongoing maintenance, we follow a structured workflow that balances speed with quality.
@@ -194,7 +226,11 @@ export default function LabsPage() {
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary text-primary-foreground font-bold mb-4">
                   1
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Research & Problem Discovery</h3>
+                <h3 className="text-lg font-semibold mb-2">
+                  <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                    Research & Problem Discovery
+                  </span>
+                </h3>
                 <p className="text-gray-200 leading-relaxed">
                   Identify real problems through community feedback, market research, and technical analysis. Define
                   clear problem statements and success criteria.
@@ -205,7 +241,11 @@ export default function LabsPage() {
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary text-primary-foreground font-bold mb-4">
                   2
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Prototyping & Testing</h3>
+                <h3 className="text-lg font-semibold mb-2">
+                  <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                    Prototyping & Testing
+                  </span>
+                </h3>
                 <p className="text-gray-200 leading-relaxed">
                   Build rapid prototypes, conduct technical validation, and gather early user feedback. Iterate quickly
                   to find product-market fit before full development.
@@ -216,7 +256,11 @@ export default function LabsPage() {
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary text-primary-foreground font-bold mb-4">
                   3
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Product Launch</h3>
+                <h3 className="text-lg font-semibold mb-2">
+                  <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                    Product Launch
+                  </span>
+                </h3>
                 <p className="text-gray-200 leading-relaxed">
                   Ship production-grade code with comprehensive documentation, security audits (where applicable), and
                   go-to-market strategy execution.
@@ -227,7 +271,11 @@ export default function LabsPage() {
                 <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary text-primary-foreground font-bold mb-4">
                   4
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Iteration & Maintenance</h3>
+                <h3 className="text-lg font-semibold mb-2">
+                  <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                    Iteration & Maintenance
+                  </span>
+                </h3>
                 <p className="text-gray-200 leading-relaxed">
                   Continuous improvement based on usage data, community requests, and technical evolution. Long-term
                   support and feature development.
@@ -241,7 +289,11 @@ export default function LabsPage() {
         <section className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">Technology Stack</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Technology Stack
+                </span>
+              </h2>
               <p className="text-lg text-gray-200 leading-relaxed">
                 We build with modern, battle-tested technologies across blockchain and Web3 infrastructure. Our stack
                 prioritizes developer experience, security, and scalability.
@@ -278,7 +330,11 @@ export default function LabsPage() {
         <section id="contribute" className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">Collaboration & Contribution</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Collaboration & Contribution
+                </span>
+              </h2>
               <p className="text-xl text-gray-200 leading-relaxed">
                 AlphaDAO Labs is open to builders, researchers, and designers who want to contribute to community-owned
                 Web3 infrastructure.
@@ -288,7 +344,11 @@ export default function LabsPage() {
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
               <Card className="border-white/30 bg-black/60 backdrop-blur-sm">
                 <CardContent className="p-8">
-                  <h3 className="text-xl font-semibold mb-4 text-white">Who Can Contribute</h3>
+                  <h3 className="text-xl font-semibold mb-4">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Who Can Contribute
+                    </span>
+                  </h3>
                   <ul className="space-y-3 text-gray-200">
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
@@ -316,7 +376,11 @@ export default function LabsPage() {
 
               <Card className="border-white/30 bg-black/60 backdrop-blur-sm">
                 <CardContent className="p-8">
-                  <h3 className="text-xl font-semibold mb-4 text-white">Contribution Mechanisms</h3>
+                  <h3 className="text-xl font-semibold mb-4">
+                    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                      Contribution Mechanisms
+                    </span>
+                  </h3>
                   <ul className="space-y-3 text-gray-200">
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
@@ -345,7 +409,11 @@ export default function LabsPage() {
 
             <Card className="border-2 border-white/30 bg-black/60 backdrop-blur-sm max-w-5xl mx-auto mb-10">
               <CardContent className="p-10">
-                <h3 className="text-2xl font-semibold mb-4 text-white">Integration with AlphaDAO Bootcamp</h3>
+                <h3 className="text-2xl font-semibold mb-4">
+                  <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                    Integration with AlphaDAO Bootcamp
+                  </span>
+                </h3>
                 <p className="text-gray-200 leading-relaxed mb-4">
                   Labs actively collaborates with AlphaDAO Bootcamp to create real-world learning opportunities.
                   Bootcamp participants work on actual Labs projects, contribute to production code, and gain hands-on
@@ -379,7 +447,11 @@ export default function LabsPage() {
         <section className="relative py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-white">Governance & Alignment</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                  Governance & Alignment
+                </span>
+              </h2>
               <div className="space-y-4 text-lg text-gray-200 leading-relaxed">
                 <p>
                   AlphaDAO Labs operates under AlphaDAO governance, ensuring that product roadmaps and resource

@@ -2,29 +2,28 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Menu, X, ChevronDown } from "lucide-react"
 import { useState } from "react"
 import { usePathname } from "next/navigation"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [productsDropdownOpen, setProductsDropdownOpen] = useState(false)
   const pathname = usePathname()
 
   const navItems = [
+    { label: "Home", href: "/" },
     { label: "About", href: "/about" },
-    { label: "Labs", href: "/labs" },
-    { label: "Recertify", href: "/recertify" },
     { label: "Academy", href: "/academy" },
-    { label: "Foundation", href: "/foundation" },
+    { label: "Labs", href: "/labs" },
     { label: "Governance", href: "/governance" },
-    { label: "Blog", href: "/blog" },
     { label: "Whitepaper", href: "/ALPHA DAO Whitepaper.pdf", external: true },
   ]
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-<Link href="/" className="flex items-center gap-2 font-bold text-xl">
+        <Link href="/" className="flex items-center gap-2 font-bold text-xl">
           <img src="/new-logo.png" alt="AlphaDAO" className="w-8 h-8" />
           {"AlphaDAO"}
         </Link>
@@ -57,6 +56,28 @@ export function Header() {
               </Link>
             )
           })}
+          
+          {/* Products Dropdown */}
+          <div className="relative">
+            <button
+              className="px-4 py-2 text-sm font-medium transition-colors rounded-md hover:bg-muted text-muted-foreground hover:text-foreground flex items-center gap-1"
+              onClick={() => setProductsDropdownOpen(!productsDropdownOpen)}
+            >
+              Products
+              <ChevronDown className="h-4 w-4" />
+            </button>
+            {productsDropdownOpen && (
+              <div className="absolute top-full left-0 mt-1 bg-background border border-border rounded-md shadow-lg min-w-[150px]">
+                <Link
+                  href="/recertify"
+                  className="block px-4 py-2 text-sm font-medium transition-colors hover:bg-muted text-muted-foreground hover:text-foreground"
+                  onClick={() => setProductsDropdownOpen(false)}
+                >
+                  Recertify
+                </Link>
+              </div>
+            )}
+          </div>
         </div>
 
         <div className="hidden lg:flex items-center gap-3">
@@ -103,6 +124,20 @@ export function Header() {
                 </Link>
               )
             })}
+            <Link
+              href="/about"
+              className="block px-4 py-2 text-sm font-medium transition-colors rounded-md hover:bg-muted text-muted-foreground hover:text-foreground"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              About
+            </Link>
+            <Link
+              href="/recertify"
+              className="block px-4 py-2 text-sm font-medium transition-colors rounded-md hover:bg-muted text-muted-foreground hover:text-foreground"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Recertify
+            </Link>
             <div className="pt-4 border-t border-border">
               <Button className="w-full" asChild>
                 <Link href="/#join">{"Join the DAO"}</Link>
