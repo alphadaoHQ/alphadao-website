@@ -31,7 +31,7 @@ export default function AcademyPage() {
               <GraduationCap className="w-4 h-4" />
               {"Education Division"}
             </div>
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 text-white">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 text-white">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {"Learn. Build. Get Certified."}
               </span>
@@ -58,7 +58,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Why AlphaDAO Academy Exists"}
               </span>
@@ -157,7 +157,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Who the Academy Is For"}
               </span>
@@ -273,7 +273,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Learning Tracks"}
               </span>
@@ -447,7 +447,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"How the Academy Works"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"How the Academy Works"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "A structured, six-step journey from enrollment to certification, designed to maximize learning outcomes and career opportunities."
@@ -516,7 +516,7 @@ export default function AcademyPage() {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/30 bg-black/40 backdrop-blur-sm mb-6 text-xs font-mono uppercase tracking-wide text-white">
                 {"Powered by Recertify"}
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">
                 {"Certification & Recertify Integration"}
               </h2>
               <p className="text-lg text-gray-200 leading-relaxed mb-6">
@@ -633,7 +633,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Learn-to-Earn & Participation"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Learn-to-Earn & Participation"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Academy offers multiple incentive mechanisms to reward learners, support contributors, and ensure accessible education for all backgrounds."
@@ -703,7 +703,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Outcomes & Opportunities"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Outcomes & Opportunities"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Academy graduates gain access to a wide range of career opportunities, from employment at Web3 companies to building their own startups or contributing to DAOs."
@@ -759,7 +759,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Partners & Sponsors"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Partners & Sponsors"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Academy collaborates with ecosystem partners, institutions, communities, and sponsors who help shape curriculum, provide resources, and hire talent."
@@ -792,7 +792,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Academy History & Credibility"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Academy History & Credibility"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed mb-8">
               {
                 "AlphaDAO Academy launched in early 2025 with a mission to bridge the global skills gap in blockchain development and Web3 competencies. Since inception, we've continuously iterated based on learner feedback, industry demand, and technological advances."
@@ -828,7 +828,7 @@ export default function AcademyPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-32 lg:py-40">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6 text-white">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-balance mb-6 text-white">
               {"Build Skills That Matter."}
             </h2>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty mb-12">

@@ -31,7 +31,7 @@ export default function FoundationPage() {
               <Building2 className="w-4 h-4" />
               {"Capital Allocation Division"}
             </div>
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 text-white">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 text-white">
               {"Capital for Builders. Infrastructure for the Future."}
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty mb-12 max-w-3xl mx-auto">
@@ -56,7 +56,7 @@ export default function FoundationPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Why AlphaDAO Foundation Exists"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Why AlphaDAO Foundation Exists"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "Traditional capital allocation is often short-term, extractive, and misaligned with ecosystem health. AlphaDAO Foundation operates differently."
@@ -146,7 +146,7 @@ export default function FoundationPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Foundation Mandate"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Foundation Mandate"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation operates under a clear mandate focused on ecosystem growth, builder support, and long-term treasury sustainability."
@@ -234,7 +234,7 @@ export default function FoundationPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Capital Allocation Strategy"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Capital Allocation Strategy"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation allocates capital across diversified categories designed to balance ecosystem growth, risk management, and long-term sustainability."
@@ -320,7 +320,7 @@ export default function FoundationPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Investment & Funding Models"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Investment & Funding Models"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation employs flexible funding structures tailored to project needs, stage, and alignment with ecosystem goals."
@@ -401,7 +401,7 @@ export default function FoundationPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Investment Focus Areas"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Investment Focus Areas"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation prioritizes investments in sectors aligned with our mission of education, infrastructure, and decentralized coordination."
@@ -477,7 +477,7 @@ export default function FoundationPage() {
        <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Governance & Oversight"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Governance & Oversight"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation operates under structured governance with transparency, accountability, and progressive decentralization as core principles."
@@ -553,7 +553,7 @@ export default function FoundationPage() {
        <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Application & Evaluation Process"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Application & Evaluation Process"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation follows a structured, transparent process for evaluating funding applications from builders, researchers, and ecosystem contributors."
@@ -616,7 +616,7 @@ export default function FoundationPage() {
       <section className="border-b border-border bg-black/40">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Reporting & Accountability"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Reporting & Accountability"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation maintains rigorous transparency standards, ensuring community members and stakeholders can audit capital allocation and investment outcomes."
@@ -676,7 +676,7 @@ export default function FoundationPage() {
        <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Relationship to AlphaDAO"}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white">{"Relationship to AlphaDAO"}</h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
                 "AlphaDAO Foundation operates as an independent division with a distinct mandate, while remaining strategically aligned with AlphaDAO's overall mission and ecosystem."
@@ -747,7 +747,7 @@ export default function FoundationPage() {
     
         <div className="max-w-7xl mx-auto px-6 py-32 lg:py-40">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6 text-white">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-balance mb-6 text-white">
               {"Funding What Matters."}
             </h2>
             <p className="text-xl text-gray-200 leading-relaxed text-pretty mb-12">

@@ -60,7 +60,7 @@ export default function HomePage() {
               <span className="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse" />
               {"Active Community DAO"}
             </div>
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 ">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6 ">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {"Building Skills, Products, and Community-Owned Infrastructure"}
               </span>
@@ -99,7 +99,7 @@ export default function HomePage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-5xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-4">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Watch: Understanding AlphaDAO"}
               </span>
@@ -126,7 +126,7 @@ export default function HomePage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Organizational Structure"}
               </span>
@@ -254,7 +254,7 @@ export default function HomePage() {
       <section className="relative border-b border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"People We Work With"}
               </span>
@@ -351,7 +351,7 @@ export default function HomePage() {
       <section className="relative border-b border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"What Our Community Says"}
               </span>
@@ -366,7 +366,7 @@ export default function HomePage() {
           <div className="relative">
             <div className="flex animate-scroll-x space-x-6">
               {/* First set of testimonials */}
-              <Card className="p-8 border-2 border-white/30 bg-black/60 backdrop-blur-sm min-w-[380px]">
+              <Card className="p-8 border-2 border-white/30 bg-black/60 backdrop-blur-sm min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
                     <Users className="w-6 h-6 text-primary" />
@@ -390,7 +390,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Lightbulb className="w-6 h-6 text-primary" />
@@ -414,7 +414,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <GraduationCap className="w-6 h-6 text-primary" />
@@ -438,7 +438,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Building2 className="w-6 h-6 text-primary" />
@@ -462,7 +462,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Shield className="w-6 h-6 text-primary" />
@@ -486,7 +486,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Vote className="w-6 h-6 text-primary" />
@@ -511,7 +511,7 @@ export default function HomePage() {
               </Card>
 
               {/* Duplicate set for seamless loop */}
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Users className="w-6 h-6 text-primary" />
@@ -535,7 +535,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Lightbulb className="w-6 h-6 text-primary" />
@@ -559,7 +559,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <GraduationCap className="w-6 h-6 text-primary" />
@@ -583,7 +583,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Building2 className="w-6 h-6 text-primary" />
@@ -607,7 +607,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Shield className="w-6 h-6 text-primary" />
@@ -631,7 +631,7 @@ export default function HomePage() {
                 </div>
               </Card>
 
-              <Card className="p-8 border-2 min-w-[380px]">
+              <Card className="p-8 border-2 min-w-[300px] sm:min-w-[380px]">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Vote className="w-6 h-6 text-primary" />
@@ -667,7 +667,7 @@ export default function HomePage() {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/30 bg-black/40 backdrop-blur-sm mb-6 text-xs font-mono uppercase tracking-wide text-white">
                 {"Flagship Product"}
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   {"Recertify: Verifiable Credentials for Web3"}
                 </span>
@@ -789,7 +789,7 @@ export default function HomePage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
 {"Protocol Advantages"} </span></h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
@@ -862,7 +862,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div>
-                <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
 {"Governance Architecture"}</span></h2>
                 <p className="text-lg text-gray-200 leading-relaxed">
                   {
@@ -1021,7 +1021,7 @@ export default function HomePage() {
       <section id="join" className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-white"><span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
 {"Join the Protocol"}</span></h2>
             <p className="text-lg text-gray-200 leading-relaxed">
               {
@@ -1101,39 +1101,49 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://t.me/AlphaDaoHub" className="gap-2">
+                <Link href="https://t.me/AlphaDaoHub" className="gap-2" target="_blank">
                   <MessageSquare className="h-5 w-5" />
                   {"Telegram"}
                 </Link>
               </Button>
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://x.com/Alpha_Daos" className="gap-2">
+                <Link href="https://discord.gg/Scy6spQxf" className="gap-2" target="_blank">
                   <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
                   </svg>
-                  {"AlphaDAO"}
+                  {"Discord"}
                 </Link>
               </Button>
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://x.com/AlphaDAOLabs" className="gap-2">
+                <Link href="https://x.com/Alpha_Daos" className="gap-2" target="_blank">
                   <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                   </svg>
-                  {"Labs"}
+                  {"X (AlphaDAOs)"}
                 </Link>
               </Button>
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://x.com/AlphaDAOAcademy" className="gap-2">
+                <Link href="https://x.com/AlphaDAOLabs" className="gap-2" target="_blank">
                   <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                   </svg>
-                  {"Academy"}
+                  {"X (Labs)"}
                 </Link>
               </Button>
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
-                <Link href="https://github.com/alphadaoHQ" className="gap-2">
-                  <Github className="h-5 w-5" />
-                  {"GitHub"}
+                <Link href="https://www.linkedin.com/company/alpha-daos/" className="gap-2" target="_blank">
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  {"LinkedIn"}
+                </Link>
+              </Button>
+              <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" asChild>
+                <Link href="https://youtube.com/@officialalphadao?si=wFUx-5SsS-oczEOF" className="gap-2" target="_blank">
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 0 0-2.122 2.136C.001 8.081 0 12 0 12s0 3.919.501 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.55 9.377.55 9.377.55s7.505 0 9.377-.55a3.016 3.016 0 0 0 2.122-2.136C24 15.919 24 12 24 12s0-3.919-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                  {"YouTube"}
                 </Link>
               </Button>
             </div>

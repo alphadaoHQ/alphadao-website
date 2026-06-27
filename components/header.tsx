@@ -9,6 +9,7 @@ import { usePathname } from "next/navigation"
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [productsDropdownOpen, setProductsDropdownOpen] = useState(false)
+  const [joinDropdownOpen, setJoinDropdownOpen] = useState(false)
   const pathname = usePathname()
 
   const navItems = [
@@ -17,8 +18,10 @@ export function Header() {
     { label: "Academy", href: "/academy" },
     { label: "Labs", href: "/labs" },
     { label: "Governance", href: "/governance" },
+    { label: "NFTs", href: "/nfts" },
     { label: "Whitepaper", href: "/ALPHA DAO Whitepaper.pdf", external: true },
   ]
+
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -80,10 +83,26 @@ export function Header() {
           </div>
         </div>
 
-        <div className="hidden lg:flex items-center gap-3">
-          <Button variant="ghost" size="sm" asChild>
-            <Link href="/#join">{"Join"}</Link>
+        <div className="hidden lg:flex items-center gap-3 relative">
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            onClick={() => setJoinDropdownOpen(!joinDropdownOpen)}
+            className="flex items-center gap-1"
+          >
+            {"Join"}
+            <ChevronDown className="h-4 w-4" />
           </Button>
+          {joinDropdownOpen && (
+            <div className="absolute top-full right-0 mt-1 bg-background border border-border rounded-md shadow-lg min-w-[200px] z-50 py-2">
+              <a href="https://t.me/AlphaDaoHub" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm hover:bg-muted" onClick={() => setJoinDropdownOpen(false)}>Telegram</a>
+              <a href="https://discord.gg/Scy6spQxf" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm hover:bg-muted" onClick={() => setJoinDropdownOpen(false)}>Discord</a>
+              <a href="https://x.com/Alpha_Daos" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm hover:bg-muted" onClick={() => setJoinDropdownOpen(false)}>X (Alpha DAOs)</a>
+              <a href="https://x.com/AlphaDAOLabs" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm hover:bg-muted" onClick={() => setJoinDropdownOpen(false)}>X (AlphaDAO Labs)</a>
+              <a href="https://www.linkedin.com/company/alpha-daos/" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm hover:bg-muted" onClick={() => setJoinDropdownOpen(false)}>LinkedIn</a>
+              <a href="https://youtube.com/@officialalphadao?si=wFUx-5SsS-oczEOF" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm hover:bg-muted" onClick={() => setJoinDropdownOpen(false)}>YouTube</a>
+            </div>
+          )}
         </div>
 
         {/* Mobile Menu Button */}
@@ -139,9 +158,15 @@ export function Header() {
               Recertify
             </Link>
             <div className="pt-4 border-t border-border">
-              <Button className="w-full" asChild>
-                <Link href="/#join">{"Join the DAO"}</Link>
-              </Button>
+              <div className="font-medium text-sm text-muted-foreground px-4 mb-2">Join the Community</div>
+              <div className="grid grid-cols-2 gap-2 px-4">
+                <a href="https://t.me/AlphaDaoHub" target="_blank" rel="noopener noreferrer" className="text-sm py-2 hover:text-foreground text-muted-foreground">Telegram</a>
+                <a href="https://discord.gg/Scy6spQxf" target="_blank" rel="noopener noreferrer" className="text-sm py-2 hover:text-foreground text-muted-foreground">Discord</a>
+                <a href="https://x.com/Alpha_Daos" target="_blank" rel="noopener noreferrer" className="text-sm py-2 hover:text-foreground text-muted-foreground">X (Alpha DAOs)</a>
+                <a href="https://x.com/AlphaDAOLabs" target="_blank" rel="noopener noreferrer" className="text-sm py-2 hover:text-foreground text-muted-foreground">X (Labs)</a>
+                <a href="https://www.linkedin.com/company/alpha-daos/" target="_blank" rel="noopener noreferrer" className="text-sm py-2 hover:text-foreground text-muted-foreground">LinkedIn</a>
+                <a href="https://youtube.com/@officialalphadao?si=wFUx-5SsS-oczEOF" target="_blank" rel="noopener noreferrer" className="text-sm py-2 hover:text-foreground text-muted-foreground">YouTube</a>
+              </div>
             </div>
           </div>
         </div>

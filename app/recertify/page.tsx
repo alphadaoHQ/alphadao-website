@@ -31,7 +31,7 @@ export default function RecertifyPage() {
               <span className="inline-block w-2 h-2 rounded-full bg-green-500" />
               {"Flagship Product"}
             </div>
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Verifiable Credentials for a Borderless Skills Economy"}
               </span>
@@ -68,7 +68,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"The Recertify Ecosystem"}
               </span>
@@ -190,7 +190,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Enterprise-Grade Dashboard"}
               </span>
@@ -246,7 +246,7 @@ export default function RecertifyPage() {
      <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Trust in Credentials is Broken"}
               </span>
@@ -314,7 +314,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"The Recertify Approach"}
               </span>
@@ -382,7 +382,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"How Recertify Works"}
               </span>
@@ -461,7 +461,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Who Recertify Serves"}
               </span>
@@ -529,7 +529,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Key Features"}
               </span>
@@ -621,7 +621,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Why Recertify Is Different"}
               </span>
@@ -713,7 +713,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Trust & Governance"}
               </span>
@@ -789,7 +789,7 @@ export default function RecertifyPage() {
       <section className="relative border-b border-border">
         <div className="max-w-7xl mx-auto px-6 py-32 lg:py-40">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-balance mb-6">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Start Issuing Verifiable Credentials Today"}
               </span>
@@ -807,9 +807,11 @@ export default function RecertifyPage() {
               <Button size="lg" variant="outline" className="text-base px-8 bg-transparent">
                 {"Request Partnership"}
               </Button>
-              <Button size="lg" variant="outline" className="text-base px-8 bg-transparent">
-                <MessageSquare className="mr-2 h-5 w-5" />
-                {"Join Telegram Community"}
+              <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
+                <Link href="https://t.me/AlphaDaoHub" target="_blank" rel="noopener noreferrer">
+                  <MessageSquare className="mr-2 h-5 w-5" />
+                  {"Join Telegram Community"}
+                </Link>
               </Button>
             </div>
           </div>

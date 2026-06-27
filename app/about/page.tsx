@@ -17,7 +17,7 @@ export default function AboutPage() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/30 bg-black/40 backdrop-blur-sm mb-6 text-xs font-mono uppercase tracking-wide text-white">
               {"About the Protocol"}
             </div>
-            <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-8 text-white">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-balance mb-8 text-white">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {"AlphaDAO: Decentralized Infrastructure for Education and Credentialing"}
               </span>
@@ -35,7 +35,7 @@ export default function AboutPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-4">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Our Team"}
               </span>
@@ -149,7 +149,7 @@ export default function AboutPage() {
       <section className="relative border-b border-white/10">
         <div className="max-w-5xl mx-auto px-6 py-24 lg:py-32">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-4">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 {"Learn More About AlphaDAO"}
               </span>

@@ -16,7 +16,7 @@ export default function LabsPage() {
         <section className="relative py-24 lg:py-32 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl">
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">
+              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 text-balance">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   AlphaDAO Labs
                 </span>
@@ -47,7 +47,7 @@ export default function LabsPage() {
         <section className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   What We Do
                 </span>
@@ -136,7 +136,7 @@ export default function LabsPage() {
                   <Blocks className="h-4 w-4" />
                   Flagship Product
                 </div>
-                <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
                   <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                     Recertify
                   </span>
@@ -210,7 +210,7 @@ export default function LabsPage() {
         <section className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   How Labs Works
                 </span>
@@ -289,7 +289,7 @@ export default function LabsPage() {
         <section className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Technology Stack
                 </span>
@@ -330,7 +330,7 @@ export default function LabsPage() {
         <section id="contribute" className="relative py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Collaboration & Contribution
                 </span>
@@ -434,7 +434,7 @@ export default function LabsPage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link href="https://t.me/alphadao">
+                <Link href="https://t.me/AlphaDaoHub" target="_blank" rel="noopener noreferrer">
                   <MessageSquare className="mr-2 h-4 w-4" />
                   Join Telegram
                 </Link>
@@ -447,7 +447,7 @@ export default function LabsPage() {
         <section className="relative py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Governance & Alignment
                 </span>

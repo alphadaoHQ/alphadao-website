@@ -14,7 +14,7 @@ export default function GovernancePage() {
         <section className="relative py-24 lg:py-32 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">
+              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 text-balance">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Transparent Governance. Sustainable Innovation.
                 </span>
@@ -65,7 +65,7 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border bg-muted/20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16 text-center">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Governance Principles
                 </span>
@@ -159,7 +159,7 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Governance Structure
                 </span>
@@ -304,7 +304,7 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border bg-muted/20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Decision-Making Process
                 </span>
@@ -384,7 +384,7 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Founder Role & Transition
                 </span>
@@ -428,7 +428,7 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border bg-muted/20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Transparency & Reporting
                 </span>
@@ -487,7 +487,7 @@ export default function GovernancePage() {
         <section className="py-24 border-b border-border">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Risk Management & Safeguards
                 </span>
@@ -549,7 +549,7 @@ export default function GovernancePage() {
         <section className="py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
                   Built for the Long Term
                 </span>
@@ -572,7 +572,7 @@ export default function GovernancePage() {
           </div>
         </section>
       </main>
-      <Footer />
+      
     </div>
   )
 }
